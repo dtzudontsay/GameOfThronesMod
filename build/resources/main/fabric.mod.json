@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "knownworld",
+  "version": "0.1.0",
+  "name": "Known World",
+  "description": "A 1:1-scale world framework for an A Song of Ice and Fire inspired Minecraft project.",
+  "authors": [
+    "Sandro"
+  ],
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.dtzudontsay.knownworld.KnownWorld"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
